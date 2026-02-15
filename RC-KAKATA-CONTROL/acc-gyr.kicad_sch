@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "149d6978-63ba-4fb8-9848-1b076db9d4c0")
-	(paper "A4")
+	(paper "USLedger")
 	(title_block
 		(title "RC-KAKATA-CONTROL")
 		(date "2025-12-01")
@@ -974,6 +974,70 @@
 		(color 0 0 0 0)
 		(uuid "d73e624d-0a41-43c6-8ac8-0098c7113100")
 	)
+	(no_connect
+		(at 134.62 82.55)
+		(uuid "04d30f40-d8b1-48cd-9655-81abe72a6aca")
+	)
+	(no_connect
+		(at 156.21 77.47)
+		(uuid "472f23e9-60d4-4dad-8519-7258f850bd03")
+	)
+	(no_connect
+		(at 134.62 95.25)
+		(uuid "5836fe6f-a2ac-4999-93ea-eab4e3f1969b")
+	)
+	(no_connect
+		(at 156.21 95.25)
+		(uuid "59852853-5cd8-4792-b01d-d26c5b38b27b")
+	)
+	(no_connect
+		(at 134.62 69.85)
+		(uuid "77df9521-6d14-418f-84b1-a8d19ea30f77")
+	)
+	(no_connect
+		(at 134.62 74.93)
+		(uuid "7d18918a-969f-4717-9580-742e3290ab65")
+	)
+	(no_connect
+		(at 156.21 92.71)
+		(uuid "846a845b-d05d-43ce-ab48-b93ff1690181")
+	)
+	(no_connect
+		(at 156.21 82.55)
+		(uuid "8a5ef864-1e23-49e2-b158-05690f14fe3e")
+	)
+	(no_connect
+		(at 134.62 85.09)
+		(uuid "99ab6776-79e7-4f15-874e-fda8135c2199")
+	)
+	(no_connect
+		(at 134.62 80.01)
+		(uuid "acd377b7-dd27-4904-b2ad-973667c4d548")
+	)
+	(no_connect
+		(at 156.21 80.01)
+		(uuid "adc371fb-7f2a-4d47-afe8-b1e773846c75")
+	)
+	(no_connect
+		(at 134.62 77.47)
+		(uuid "ae57ac47-eef4-48b2-92a2-0fba057339e3")
+	)
+	(no_connect
+		(at 134.62 72.39)
+		(uuid "c549338a-e81c-45c1-8acb-5b8e0684f483")
+	)
+	(no_connect
+		(at 156.21 87.63)
+		(uuid "d4dcde8e-5824-4b2c-b523-8af50f29593d")
+	)
+	(no_connect
+		(at 156.21 90.17)
+		(uuid "d78817be-fdfc-475b-ac19-83b94b2d0f50")
+	)
+	(no_connect
+		(at 156.21 67.31)
+		(uuid "edc1f424-caa2-46bf-a2ec-5b8e9656cdef")
+	)
 	(wire
 		(pts
 			(xy 163.83 99.06) (xy 163.83 97.79)
@@ -1203,17 +1267,6 @@
 			(type default)
 		)
 		(uuid "f6d3eaea-6a6e-419e-a85e-4e7b654f2954")
-	)
-	(hierarchical_label "AD0{slash}SDO"
-		(shape output)
-		(at 52.07 88.9 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "21abb353-35ec-456f-8777-7e40fa4a5840")
 	)
 	(hierarchical_label "NCS"
 		(shape input)

@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "ea8c6dc4-57c4-4035-a0d4-b002608b9da0")
-	(paper "A4")
+	(paper "USLedger")
 	(title_block
 		(title "RC-KAKATA-CONTROL")
 		(date "2025-12-01")
@@ -3240,6 +3240,107 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:VDDA"
 			(power)
 			(pin_numbers
@@ -3455,6 +3556,12 @@
 		(uuid "5c557b44-a4c8-4341-a54e-7a58c7e2d023")
 	)
 	(junction
+		(at 60.96 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "688fdfe6-a90f-4cc9-b90d-1a040a2b62c7")
+	)
+	(junction
 		(at 77.47 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3465,6 +3572,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7caf0a52-8b5a-405b-b094-1956246b1de2")
+	)
+	(junction
+		(at 114.3 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7faea7a9-cd1e-44e7-8d69-ed6ccd78df6a")
 	)
 	(junction
 		(at 44.45 86.36)
@@ -3489,6 +3602,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9eb2d1ff-3fa8-41a9-8bea-c90fc9d52add")
+	)
+	(junction
+		(at 114.3 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a50170b1-3cd9-4b5a-a5dd-d88b3b8d0f3b")
 	)
 	(junction
 		(at 269.24 46.99)
@@ -3582,7 +3701,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 48.26) (xy 60.96 69.85)
+			(xy 60.96 48.26) (xy 60.96 52.07)
 		)
 		(stroke
 			(width 0)
@@ -3712,6 +3831,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 52.07) (xy 60.96 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "251f4d86-eea3-4506-a0d8-109f453e541f")
+	)
+	(wire
+		(pts
 			(xy 99.06 55.88) (xy 99.06 57.15)
 		)
 		(stroke
@@ -3749,6 +3878,26 @@
 			(type default)
 		)
 		(uuid "2926f182-54e2-4c04-80c8-03b2cb9a9f32")
+	)
+	(wire
+		(pts
+			(xy 129.54 96.52) (xy 129.54 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2968f2cc-0ea2-4727-b137-f3ed9b444ffc")
+	)
+	(wire
+		(pts
+			(xy 129.54 92.71) (xy 114.3 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29c35a13-081c-4f2a-b7df-e735073240c3")
 	)
 	(wire
 		(pts
@@ -3962,6 +4111,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 73.66) (xy 193.04 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57b2e7ef-6647-4f9a-9d19-effba82f2ecd")
+	)
+	(wire
+		(pts
 			(xy 53.34 24.13) (xy 53.34 26.67)
 		)
 		(stroke
@@ -4089,6 +4248,16 @@
 			(type default)
 		)
 		(uuid "6cd3fb81-ba1c-4df8-9953-35721b46f9a0")
+	)
+	(wire
+		(pts
+			(xy 147.32 24.13) (xy 147.32 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d7699a3-d015-49d2-a61e-1526b24a9f46")
 	)
 	(wire
 		(pts
@@ -4592,6 +4761,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 49.53) (xy 58.42 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cae630fa-a332-4a10-b929-0575cc960428")
+	)
+	(wire
+		(pts
 			(xy 41.91 17.78) (xy 41.91 19.05)
 		)
 		(stroke
@@ -4599,16 +4778,6 @@
 			(type default)
 		)
 		(uuid "cbdc5f39-a25c-4563-9c01-3c299ae1cf5c")
-	)
-	(wire
-		(pts
-			(xy 147.32 24.13) (xy 147.32 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc710434-8880-41e2-bb95-f19bdaafaa0f")
 	)
 	(wire
 		(pts
@@ -4632,26 +4801,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 24.13) (xy 114.3 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ceaa55fb-3d4c-4c4d-bb2e-2d0dd3e86652")
-	)
-	(wire
-		(pts
-			(xy 114.3 17.78) (xy 114.3 19.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d0347706-cd90-4eb9-a057-673415551b58")
-	)
-	(wire
-		(pts
 			(xy 266.7 38.1) (xy 269.24 38.1)
 		)
 		(stroke
@@ -4669,6 +4818,16 @@
 			(type default)
 		)
 		(uuid "d1838601-c0f4-4938-a5d4-90b3c4540675")
+	)
+	(wire
+		(pts
+			(xy 60.96 52.07) (xy 60.96 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1f96d99-3dc3-4faa-9127-ea9a7e9fb2b1")
 	)
 	(wire
 		(pts
@@ -4742,6 +4901,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 104.14) (xy 129.54 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de788c08-3492-43f3-92a6-aacb627c154d")
+	)
+	(wire
+		(pts
 			(xy 80.01 24.13) (xy 80.01 26.67)
 		)
 		(stroke
@@ -4759,6 +4928,16 @@
 			(type default)
 		)
 		(uuid "e0cb239c-7b5b-4dab-942d-85377228ccd7")
+	)
+	(wire
+		(pts
+			(xy 185.42 78.74) (xy 193.04 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1009875-be65-4fd8-be51-4a6a99bd2504")
 	)
 	(wire
 		(pts
@@ -4839,6 +5018,16 @@
 			(type default)
 		)
 		(uuid "eb11e456-d5a9-462e-9e0c-074ea036ae5d")
+	)
+	(wire
+		(pts
+			(xy 129.54 106.68) (xy 114.3 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eccb1760-21fc-47f4-b7dc-543fa9603ec4")
 	)
 	(wire
 		(pts
@@ -5449,6 +5638,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 147.32 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0cde1f84-1b2f-4ebc-aed3-b98452b0b440")
+		(property "Reference" "#PWR03"
+			(at 147.32 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 147.574 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 147.32 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ace30432-ebc8-418f-b6e7-44309c8f55d4")
+		)
+		(instances
+			(project "RC-KAKATA-CONTROL"
+				(path "/739b16ea-69b1-41ec-be07-897a0cbc3062/98145a49-6c0e-4937-975e-37c7190fc264"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "MG_CAPACITOR:CAP-0603-100NF-16V-X5R")
 		(at 80.01 21.59 0)
 		(unit 1)
@@ -5572,71 +5826,6 @@
 			(project "RC-KAKATA-CONTROL"
 				(path "/739b16ea-69b1-41ec-be07-897a0cbc3062/98145a49-6c0e-4937-975e-37c7190fc264"
 					(reference "C12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 114.3 17.78 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "106fb289-d744-42ad-b968-43689975e4cb")
-		(property "Reference" "#PWR26"
-			(at 114.3 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 114.3 13.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 114.3 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 114.3 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 114.3 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bccbdae7-27b7-4a0a-8fd2-a2e6377f7347")
-		)
-		(instances
-			(project "RC-KAKATA-CONTROL"
-				(path "/739b16ea-69b1-41ec-be07-897a0cbc3062/98145a49-6c0e-4937-975e-37c7190fc264"
-					(reference "#PWR26")
 					(unit 1)
 				)
 			)
@@ -7058,71 +7247,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 147.32 26.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2c431191-8ca5-4551-8ea7-d4a0f1d26eef")
-		(property "Reference" "#PWR3"
-			(at 147.32 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 147.574 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 147.32 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 147.32 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 147.32 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3809fb13-3eb3-4140-b49d-ae6cec48b762")
-		)
-		(instances
-			(project "RC-KAKATA-CONTROL"
-				(path "/739b16ea-69b1-41ec-be07-897a0cbc3062/98145a49-6c0e-4937-975e-37c7190fc264"
-					(reference "#PWR3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 53.34 17.78 0)
 		(unit 1)
@@ -8124,6 +8248,110 @@
 		)
 	)
 	(symbol
+		(lib_id "Capacitor_AKL:CP_SMD_D6.3mm_H5.9mm")
+		(at 129.54 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4060655c-563a-4540-8d25-b2927d71186d")
+		(property "Reference" "C45"
+			(at 133.35 98.1709 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100uF"
+			(at 133.35 100.7109 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD_AKL:CP_Elec_6.3x5.9"
+			(at 129.54 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Electrolytic Capacitor, 6.3mm Diameter, 5.9mm Height, European Symbol, Alternate KiCad Library"
+			(at 129.54 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART_NUMBER" ""
+			(at 129.54 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 129.54 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 129.54 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VOL" "10V"
+			(at 135.89 103.378 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5982ee81-e574-40f1-9e52-6b713efe7d49")
+		)
+		(pin "2"
+			(uuid "3727fcee-d32d-45ff-8823-dba9f11faa43")
+		)
+		(instances
+			(project "RC-KAKATA-CONTROL"
+				(path "/739b16ea-69b1-41ec-be07-897a0cbc3062/98145a49-6c0e-4937-975e-37c7190fc264"
+					(reference "C45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "MG_IC:PS-TO220")
 		(at 88.9 92.71 0)
 		(unit 1)
@@ -8579,71 +8807,6 @@
 			(project "RC-KAKATA-CONTROL"
 				(path "/739b16ea-69b1-41ec-be07-897a0cbc3062/98145a49-6c0e-4937-975e-37c7190fc264"
 					(reference "#PWR53")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 114.3 26.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "509c5367-cb98-4047-9af6-4c97f1444c24")
-		(property "Reference" "#PWR27"
-			(at 114.3 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 114.554 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 114.3 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 114.3 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 114.3 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "05cf75af-a1dd-4e8c-9203-0c5f86f20d8a")
-		)
-		(instances
-			(project "RC-KAKATA-CONTROL"
-				(path "/739b16ea-69b1-41ec-be07-897a0cbc3062/98145a49-6c0e-4937-975e-37c7190fc264"
-					(reference "#PWR27")
 					(unit 1)
 				)
 			)
@@ -9989,6 +10152,72 @@
 			(project "RC-KAKATA-CONTROL"
 				(path "/739b16ea-69b1-41ec-be07-897a0cbc3062/98145a49-6c0e-4937-975e-37c7190fc264"
 					(reference "LED2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 193.04 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "73c82c1a-f7c7-4ab7-a0bf-7b948537b142")
+		(property "Reference" "#FLG02"
+			(at 193.04 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 193.04 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 193.04 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 193.04 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 193.04 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "69da6cad-ccb5-4f22-9d87-98af5e65520a")
+		)
+		(instances
+			(project ""
+				(path "/739b16ea-69b1-41ec-be07-897a0cbc3062/98145a49-6c0e-4937-975e-37c7190fc264"
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -11891,6 +12120,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 58.42 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b9e9a954-4e54-4030-adde-a8942a322ebe")
+		(property "Reference" "#FLG01"
+			(at 58.42 47.625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 58.42 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 58.42 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 58.42 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dbb77bb1-2bee-448e-acff-acefd6c5ccc2")
+		)
+		(instances
+			(project ""
+				(path "/739b16ea-69b1-41ec-be07-897a0cbc3062/98145a49-6c0e-4937-975e-37c7190fc264"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 19.05 26.67 0)
 		(unit 1)
@@ -12146,135 +12441,6 @@
 			(project "RC-KAKATA-CONTROL"
 				(path "/739b16ea-69b1-41ec-be07-897a0cbc3062/98145a49-6c0e-4937-975e-37c7190fc264"
 					(reference "#PWR23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MG_CAPACITOR:CAP-0603-100NF-16V-X5R")
-		(at 114.3 21.59 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ce545f9c-22b7-4740-9fc1-8e881dd07c70")
-		(property "Reference" "C15"
-			(at 116.84 19.0562 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100NF"
-			(at 116.84 21.5962 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "4ms_Capacitor:C_0603"
-			(at 111.76 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 114.3 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.1uF, Min. 16V 10%, X7R or X5R or similar"
-			(at 114.3 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Specifications" "0.1uF, Min. 16V 10%, X7R or X5R or similar"
-			(at 111.76 29.464 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "AVX Corporation"
-			(at 111.76 30.988 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "0603YC104KAT2A"
-			(at 111.76 32.512 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Display" "0.1uF"
-			(at 116.205 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB ID" "C14663"
-			(at 115.57 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "V" "16V"
-			(at 116.84 24.1362 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "2"
-			(uuid "979bf6e8-c662-44f4-aac2-13a33e3a6552")
-		)
-		(pin "1"
-			(uuid "54d1ba13-925e-42a7-8ae2-3c4c0772732d")
-		)
-		(instances
-			(project "RC-KAKATA-CONTROL"
-				(path "/739b16ea-69b1-41ec-be07-897a0cbc3062/98145a49-6c0e-4937-975e-37c7190fc264"
-					(reference "C15")
 					(unit 1)
 				)
 			)

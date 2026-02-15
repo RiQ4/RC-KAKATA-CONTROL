@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "104b5d4b-2f33-4198-8979-a868cc3c83ea")
-	(paper "A4")
+	(paper "USLedger")
 	(title_block
 		(title "RC-KAKATA-CONTROL")
 		(date "2025-12-01")
@@ -974,7 +974,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 85.09) (xy 68.58 85.09)
+			(xy 50.8 85.09) (xy 68.58 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1056,7 +1056,7 @@
 	)
 	(hierarchical_label "RF_TRANSMITER_EN"
 		(shape input)
-		(at 58.42 85.09 180)
+		(at 50.8 85.09 180)
 		(effects
 			(font
 				(size 1.27 1.27)

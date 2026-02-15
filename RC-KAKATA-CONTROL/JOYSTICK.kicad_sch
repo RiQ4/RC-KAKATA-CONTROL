@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "d80bb169-c840-41a4-bd1c-48c7ff28d007")
-	(paper "A4")
+	(paper "USLedger")
 	(title_block
 		(title "RC-KAKATA-CONTROL")
 		(date "2025-12-01")
@@ -1260,6 +1260,22 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b22760e4-272c-40e0-be8e-d0e500d9e5ce")
+	)
+	(no_connect
+		(at 100.33 81.28)
+		(uuid "0f9fd873-5b5e-49d4-9c76-0f06c2118813")
+	)
+	(no_connect
+		(at 90.17 91.44)
+		(uuid "1f1ccd16-8815-44ec-953b-b1335b855e24")
+	)
+	(no_connect
+		(at 100.33 91.44)
+		(uuid "33351e0f-c4c6-4232-a935-90e45542970f")
+	)
+	(no_connect
+		(at 90.17 81.28)
+		(uuid "c8996bfb-afc1-46c1-91cc-a4c0ded9207c")
 	)
 	(wire
 		(pts
