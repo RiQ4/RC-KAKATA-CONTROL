@@ -527,7 +527,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../../../../../temp/RC-KAKATA-CONTROL.step",
       "svg": "",
       "vrml": ""
     },
