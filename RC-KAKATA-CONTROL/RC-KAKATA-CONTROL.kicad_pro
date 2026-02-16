@@ -560,7 +560,7 @@
           "group_by": false,
           "label": "Qty",
           "name": "${QUANTITY}",
-          "show": false
+          "show": true
         },
         {
           "group_by": true,
@@ -752,13 +752,13 @@
           "group_by": false,
           "label": "V",
           "name": "V",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "VOL",
           "name": "VOL",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
