@@ -32,7 +32,6 @@
 		(27 "Margin" user)
 		(31 "F.CrtYd" user "F.Courtyard")
 		(29 "B.CrtYd" user "B.Courtyard")
-		(35 "F.Fab" user)
 		(33 "B.Fab" user)
 		(39 "User.1" user)
 		(41 "User.2" user)
@@ -424,7 +423,7 @@
 		(descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
 		(tags "capacitor 0603 C0603")
 		(property "Reference" "C24"
-			(at 2.286 0 180)
+			(at -2.454 0 180)
 			(layer "F.SilkS")
 			(uuid "81599cae-7358-4e96-8b75-44537bd2439c")
 			(effects
@@ -2478,7 +2477,7 @@
 		(uuid "04ab1406-dbc5-4702-87a5-37eff7881a9d")
 		(at 176.034 126.29)
 		(property "Reference" "U3"
-			(at 0 -16.55 0)
+			(at 0.216 -16.04 0)
 			(layer "F.SilkS")
 			(uuid "0a6e5e0e-65e8-4198-86f2-28474de87898")
 			(effects
@@ -4461,7 +4460,7 @@
 		(descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
 		(tags "capacitor 0603 C0603")
 		(property "Reference" "C18"
-			(at -1.11 -1.4 90)
+			(at 0 1.868 180)
 			(layer "F.SilkS")
 			(uuid "b054914e-f0c0-4ba1-8639-fde119349469")
 			(effects
@@ -7107,7 +7106,7 @@
 		(descr "Diode SMC (DO-214AB), Alternate KiCad Library")
 		(tags "Diode SMC (DO-214AB)")
 		(property "Reference" "D1"
-			(at 0 -4.6 0)
+			(at 0 4.54 0)
 			(layer "F.SilkS")
 			(uuid "3a199b24-cdb6-48bc-a846-30ffc45f4c68")
 			(effects
@@ -7586,7 +7585,7 @@
 		(descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
 		(tags "capacitor 0603 C0603")
 		(property "Reference" "C21"
-			(at -1.11 -1.4 90)
+			(at 2.5 -0.104 270)
 			(layer "F.SilkS")
 			(uuid "8aa4505c-418e-4792-aba1-2cf54279c4bf")
 			(effects
@@ -10904,7 +10903,7 @@
 		(descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
 		(tags "resistor 0603")
 		(property "Reference" "R18"
-			(at -0.04 1.74 0)
+			(at -0.04 2.416 0)
 			(layer "F.SilkS")
 			(uuid "93ec30b9-62ef-4559-8693-3d200cf7df65")
 			(effects
@@ -10915,7 +10914,7 @@
 			)
 		)
 		(property "Value" "300"
-			(at 0.09 -1.61 0)
+			(at 0 1.416 0)
 			(layer "F.SilkS")
 			(uuid "a37ff12f-07f4-4093-92f4-d2e8418a5f1c")
 			(effects
@@ -11165,7 +11164,7 @@
 		(descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
 		(tags "capacitor 0603 C0603")
 		(property "Reference" "C12"
-			(at -1.11 -1.4 180)
+			(at -2.224 -0.05 270)
 			(layer "F.SilkS")
 			(uuid "63a0504c-d50c-4db5-b111-cf5d8ab77f67")
 			(effects
@@ -11615,7 +11614,7 @@
 		(descr "D_SOD-123F, Alternate KiCad Library")
 		(tags "D_SOD-123F")
 		(property "Reference" "D4"
-			(at 0 -2.159 90)
+			(at 3.318 0.104 180)
 			(layer "F.SilkS")
 			(uuid "a87d32f4-b5e1-4665-ba13-9b43bf650732")
 			(effects
@@ -11932,7 +11931,7 @@
 		(descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
 		(tags "capacitor 0603 C0603")
 		(property "Reference" "C28"
-			(at -1.11 -1.4 90)
+			(at 2.957 0.074 90)
 			(layer "F.SilkS")
 			(uuid "953fc1fd-579d-4fa1-8eee-16de5ec0559c")
 			(effects
@@ -12665,7 +12664,7 @@
 		(descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
 		(tags "resistor 0603")
 		(property "Reference" "R45"
-			(at -0.04 1.74 0)
+			(at -3.026 0.222 90)
 			(layer "F.SilkS")
 			(uuid "1104381d-48c9-464f-968c-5897054340e5")
 			(effects
@@ -12676,7 +12675,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 0.09 -1.61 0)
+			(at -2.026 0.222 90)
 			(layer "F.SilkS")
 			(uuid "0b2d0c33-435d-48c6-a63e-274be8152e93")
 			(effects
@@ -12887,7 +12886,7 @@
 		(descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
 		(tags "resistor 0603")
 		(property "Reference" "R40"
-			(at -0.04 1.74 90)
+			(at -0.49 -1.872 0)
 			(layer "F.SilkS")
 			(uuid "c7ed7a29-0bff-4fff-9075-cf7bcc11f81e")
 			(effects
@@ -12898,7 +12897,7 @@
 			)
 		)
 		(property "Value" "22K"
-			(at 0.09 -1.61 90)
+			(at 0.51 -1.872 0)
 			(layer "F.SilkS")
 			(uuid "b34cfdf8-aa0d-4963-90d9-2b83b34cb614")
 			(effects
@@ -13107,7 +13106,7 @@
 		(uuid "2f79902a-ad00-43dd-afe7-a4c206400195")
 		(at 98.564 63.314 90)
 		(property "Reference" "SW4"
-			(at -2.54 -2.032 180)
+			(at -3.686 -0.064 180)
 			(layer "F.SilkS")
 			(uuid "3235743c-7b82-4018-9326-93b0d5c326df")
 			(effects
@@ -13896,7 +13895,7 @@
 		(descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
 		(tags "resistor 0603")
 		(property "Reference" "R46"
-			(at -0.04 1.74 0)
+			(at 2.68 -0.262 0)
 			(layer "F.SilkS")
 			(uuid "137e3202-55fb-49fb-9011-c3d67194e028")
 			(effects
@@ -13907,7 +13906,7 @@
 			)
 		)
 		(property "Value" "33R"
-			(at 0.09 -1.61 0)
+			(at 2.68 -1.262 0)
 			(layer "F.SilkS")
 			(uuid "5ff0b327-2f6b-4fea-adad-344fefab0299")
 			(effects
@@ -14118,7 +14117,7 @@
 		(descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
 		(tags "capacitor 0603 C0603")
 		(property "Reference" "C14"
-			(at -1.11 -1.4 90)
+			(at 2.25 0.056 180)
 			(layer "F.SilkS")
 			(uuid "d73d0c36-e12d-43fa-ac29-83af4ab107cc")
 			(effects
@@ -14348,7 +14347,7 @@
 			(uuid "17bbf4a4-3d09-4389-8876-03eea2cfa5c8")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 			)
@@ -14608,7 +14607,7 @@
 		(descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
 		(tags "capacitor 0603 C0603")
 		(property "Reference" "C35"
-			(at 0 -0.508 0)
+			(at -2.224 -0.12 90)
 			(layer "F.SilkS")
 			(uuid "6b657c09-e3b8-401b-8680-a81b0d0f033e")
 			(effects
@@ -15278,7 +15277,7 @@
 		(descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
 		(tags "resistor 0603")
 		(property "Reference" "R13"
-			(at -0.04 1.74 90)
+			(at 2.892 -0.014 90)
 			(layer "F.SilkS")
 			(uuid "b2aa237c-0760-45b6-bbb1-e5043c045da9")
 			(effects
@@ -15289,7 +15288,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 0.09 -1.61 90)
+			(at 5.392 -0.014 90)
 			(layer "F.SilkS")
 			(uuid "f7fed736-d039-4091-9780-5621d9b75787")
 			(effects
@@ -15500,7 +15499,7 @@
 		(descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
 		(tags "capacitor 0603 C0603")
 		(property "Reference" "C1"
-			(at -1.11 -1.4 0)
+			(at -0.044 1.5 0)
 			(layer "F.SilkS")
 			(uuid "ebe629d9-135c-4312-a3e9-00e9c7b9553a")
 			(effects
@@ -15511,7 +15510,7 @@
 			)
 		)
 		(property "Value" "100NF"
-			(at 1.44 -1.4 0)
+			(at -0.044 2.5 0)
 			(layer "F.SilkS")
 			(uuid "2506ad65-eed8-4cf7-81ab-5d807dd82c89")
 			(effects
@@ -16690,7 +16689,7 @@
 		(descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
 		(tags "capacitor 0603 C0603")
 		(property "Reference" "C46"
-			(at -1.11 -1.4 90)
+			(at 2.957 -0.148 90)
 			(layer "F.SilkS")
 			(uuid "c481fb73-ec41-483a-8a76-2c48f118cdc9")
 			(effects
@@ -17198,7 +17197,7 @@
 		(descr "Mounting Hole 3.2mm, M3, no annular, generated by kicad-footprint-generator mountinghole.py")
 		(tags "mountinghole M3")
 		(property "Reference" "H5"
-			(at 0 -4.15 0)
+			(at -4.75 0 0)
 			(layer "F.SilkS")
 			(uuid "154a2255-3240-412d-8e37-ad3acaa101ce")
 			(effects
@@ -17388,7 +17387,7 @@
 		(descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
 		(tags "resistor 0603")
 		(property "Reference" "R11"
-			(at -0.04 1.74 0)
+			(at 0.034 -2.484 0)
 			(layer "F.SilkS")
 			(uuid "e175960d-c775-4246-bc60-366c5026935e")
 			(effects
@@ -17649,7 +17648,7 @@
 		(descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
 		(tags "capacitor 0603 C0603")
 		(property "Reference" "C4"
-			(at -1.11 -1.4 270)
+			(at -3.078 -0.272 0)
 			(layer "F.SilkS")
 			(uuid "9d410f4d-37b9-4f4a-a033-3490174d7b5a")
 			(effects
@@ -17660,7 +17659,7 @@
 			)
 		)
 		(property "Value" "100NF"
-			(at 1.44 -1.4 270)
+			(at -2.078 -0.772 0)
 			(layer "F.SilkS")
 			(uuid "0421e308-099b-412c-b1e9-e7c9af9ff145")
 			(effects
@@ -18765,7 +18764,7 @@
 		(descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
 		(tags "resistor 0603")
 		(property "Reference" "R9"
-			(at -0.04 1.74 0)
+			(at 0.028 2.484 0)
 			(layer "F.SilkS")
 			(uuid "93a65c3d-cf0e-4691-bdc1-f4370a2641d9")
 			(effects
@@ -18776,7 +18775,7 @@
 			)
 		)
 		(property "Value" "2.2K"
-			(at 0.09 -1.61 0)
+			(at 0.028 1.484 0)
 			(layer "F.SilkS")
 			(uuid "9f8e62b3-50f3-4dc4-b3c1-700ee7cf8cf7")
 			(effects
@@ -19026,7 +19025,7 @@
 		(descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
 		(tags "resistor 0603")
 		(property "Reference" "R12"
-			(at -0.04 1.74 0)
+			(at 0.094 -2.484 0)
 			(layer "F.SilkS")
 			(uuid "e9e074f0-f7fa-4e71-b6e7-f91ee903159b")
 			(effects
@@ -20194,7 +20193,7 @@
 		(descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
 		(tags "resistor 0603")
 		(property "Reference" "R5"
-			(at -0.04 1.74 0)
+			(at 2.566 -0.376 0)
 			(layer "F.SilkS")
 			(uuid "0aa2bd25-9258-460d-b185-27bd8e5c9bf4")
 			(effects
@@ -20205,7 +20204,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 0.09 -1.61 0)
+			(at 2.656 0.624 0)
 			(layer "F.SilkS")
 			(uuid "3a536c94-1f62-41db-b4de-1a8fadadd2c7")
 			(effects
@@ -20455,7 +20454,7 @@
 		(descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
 		(tags "capacitor 0603 C0603")
 		(property "Reference" "C26"
-			(at 0 0 0)
+			(at -0.15 1.638 0)
 			(layer "F.SilkS")
 			(uuid "f0451281-f037-422a-8df0-db0aafdede32")
 			(effects
@@ -20680,7 +20679,7 @@
 		(descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
 		(tags "capacitor 0603 C0603")
 		(property "Reference" "C11"
-			(at -1.11 -1.4 0)
+			(at -2.224 -0.342 90)
 			(layer "F.SilkS")
 			(uuid "6150fafa-3436-41e2-af31-f144ffd42aa4")
 			(effects
@@ -20903,7 +20902,7 @@
 		(uuid "5f2df5c7-d43b-430d-851a-11b7b2ffbc51")
 		(at 164.096 146.372 -90)
 		(property "Reference" "X2"
-			(at 0 -5.5 90)
+			(at -4.872 -0.025 180)
 			(layer "F.SilkS")
 			(uuid "d91fe378-c7f7-4f25-982d-f6e74049e39a")
 			(effects
@@ -21195,7 +21194,7 @@
 		(descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
 		(tags "resistor 0603")
 		(property "Reference" "R49"
-			(at -0.04 1.74 0)
+			(at -2.71 0.25 0)
 			(layer "F.SilkS")
 			(uuid "d0b65131-62c2-4ed2-9e5b-7f789443c1cb")
 			(effects
@@ -21206,7 +21205,7 @@
 			)
 		)
 		(property "Value" "33R"
-			(at 0.09 -1.61 0)
+			(at -2.71 -0.75 0)
 			(layer "F.SilkS")
 			(uuid "fafb8d9c-c4e3-4697-84dc-2a7406e45d4f")
 			(effects
@@ -21417,7 +21416,7 @@
 		(descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
 		(tags "capacitor 0603 C0603")
 		(property "Reference" "C7"
-			(at -1.11 -1.4 90)
+			(at 2.25 -0.094 180)
 			(layer "F.SilkS")
 			(uuid "78913766-54e2-4be6-8d5e-3b060f2dcc6a")
 			(effects
@@ -21642,7 +21641,7 @@
 		(descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
 		(tags "resistor 0603")
 		(property "Reference" "R6"
-			(at -0.04 1.74 0)
+			(at 2.566 -0.194 0)
 			(layer "F.SilkS")
 			(uuid "0cec1945-3de7-4212-8fa5-901eb2db47ba")
 			(effects
@@ -21653,7 +21652,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 0.09 -1.61 0)
+			(at 2.566 0.806 0)
 			(layer "F.SilkS")
 			(uuid "e4bd1f56-e43b-4d16-859a-9018ee5f6d43")
 			(effects
@@ -22351,7 +22350,7 @@
 		(descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
 		(tags "capacitor 0603 C0603")
 		(property "Reference" "C19"
-			(at -1.11 -1.4 0)
+			(at -0.052 1.306 0)
 			(layer "F.SilkS")
 			(uuid "0da89112-551c-4d98-a0ef-7393a7f64400")
 			(effects
@@ -22574,7 +22573,7 @@
 		(uuid "67246ca1-26c2-4bc0-8288-c90d57eed662")
 		(at 247.408 63.568)
 		(property "Reference" "J10"
-			(at -4.064 4.064 0)
+			(at -4.158 4.182 0)
 			(layer "F.SilkS")
 			(uuid "4d54a4f5-30b4-4a74-9486-d4e7141b15af")
 			(effects
@@ -22812,7 +22811,7 @@
 		(descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
 		(tags "capacitor 0603 C0603")
 		(property "Reference" "C33"
-			(at 0 0 90)
+			(at -2.454 0.122 180)
 			(layer "F.SilkS")
 			(uuid "b41c7647-ce25-4ac5-836b-c93d09d25653")
 			(effects
@@ -23320,7 +23319,7 @@
 		(descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
 		(tags "capacitor 0603 C0603")
 		(property "Reference" "C5"
-			(at -1.11 -1.4 180)
+			(at -2.224 -0.102 270)
 			(layer "F.SilkS")
 			(uuid "c36f9fdd-3cd7-4d2e-834a-b896f024bfa5")
 			(effects
@@ -23545,7 +23544,7 @@
 		(descr "SMD Crystal SERIES SMD3225/4 http://www.txccrystal.com/images/pdf/7m-accuracy.pdf, 3.2x2.5mm^2 package, Alternate KiCad Library")
 		(tags "SMD SMT crystal")
 		(property "Reference" "X1"
-			(at 0 -2.45 0)
+			(at 0 -2.628 0)
 			(layer "F.SilkS")
 			(uuid "2d1b1d8f-34ae-4b5a-ba6a-0c459fa6125b")
 			(effects
@@ -25603,7 +25602,7 @@
 		(descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
 		(tags "capacitor 0603 C0603")
 		(property "Reference" "C9"
-			(at -1.11 -1.4 0)
+			(at -0.052 -1.416 0)
 			(layer "F.SilkS")
 			(uuid "abff4ed8-7d22-4f9e-9688-16bb34324d2e")
 			(effects
@@ -25828,7 +25827,7 @@
 		(descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
 		(tags "resistor 0603")
 		(property "Reference" "R19"
-			(at -0.04 1.74 0)
+			(at -3.026 -0.116 90)
 			(layer "F.SilkS")
 			(uuid "8d785fb6-42cd-4fad-88f2-4c97780850dc")
 			(effects
@@ -25839,7 +25838,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 0.09 -1.61 0)
+			(at -2.026 -0.116 90)
 			(layer "F.SilkS")
 			(uuid "c41b61c0-3214-4e89-a091-ec1fbe960e45")
 			(effects
@@ -26495,7 +26494,7 @@
 		(descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
 		(tags "resistor 0603")
 		(property "Reference" "R51"
-			(at -0.04 1.74 90)
+			(at -0.296 -2.038 180)
 			(layer "F.SilkS")
 			(uuid "1f6aa107-1605-4322-87fe-5eb3bdb1a23a")
 			(effects
@@ -26506,7 +26505,7 @@
 			)
 		)
 		(property "Value" "100K"
-			(at 0.09 -1.61 90)
+			(at 0.59 -2.038 180)
 			(layer "F.SilkS")
 			(uuid "72077d97-0e63-4485-a5f6-a179ef2fe260")
 			(effects
@@ -27002,7 +27001,7 @@
 		(descr "D_SOD-123F, Alternate KiCad Library")
 		(tags "D_SOD-123F")
 		(property "Reference" "D6"
-			(at 0.254 -9.261 90)
+			(at 3.31 -0.108 180)
 			(layer "F.SilkS")
 			(uuid "2a35c6e8-4558-4a44-b54c-4860e3103a5c")
 			(effects
@@ -27319,7 +27318,7 @@
 		(descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
 		(tags "resistor 0603")
 		(property "Reference" "R1"
-			(at -0.04 1.74 0)
+			(at 0 -2.508 0)
 			(layer "F.SilkS")
 			(uuid "94ffca41-abf7-4d02-9835-4c93664fced1")
 			(effects
@@ -28730,7 +28729,7 @@
 		(descr "TO-220, Vertical, RM 2.54mm")
 		(tags "TO-220 Vertical RM 2.54mm")
 		(property "Reference" "U2"
-			(at 0 -6.35 0)
+			(at -5.464 2.1125 0)
 			(layer "F.SilkS")
 			(uuid "00bdc5a2-49ab-48a0-ba4c-2315cada5456")
 			(effects
@@ -28893,7 +28892,7 @@
 		(descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
 		(tags "capacitor 0603 C0603")
 		(property "Reference" "C34"
-			(at -1.11 -1.4 90)
+			(at -2.454 -0.1 180)
 			(layer "F.SilkS")
 			(uuid "d3bd9d40-bc35-4f84-a08e-0f5db46d7dc1")
 			(effects
@@ -29118,7 +29117,7 @@
 		(descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
 		(tags "resistor 0603")
 		(property "Reference" "R47"
-			(at -0.04 1.74 0)
+			(at 2.68 0.46 0)
 			(layer "F.SilkS")
 			(uuid "af0a4dfa-eccd-4523-a2b7-9b3d4e34c3b2")
 			(effects
@@ -29129,7 +29128,7 @@
 			)
 		)
 		(property "Value" "33R"
-			(at 0.09 -1.61 0)
+			(at 2.68 -0.54 0)
 			(layer "F.SilkS")
 			(uuid "0552cd37-4d5a-4ad5-98b4-cf1e38e94206")
 			(effects
@@ -29562,7 +29561,7 @@
 		(descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
 		(tags "resistor 0603")
 		(property "Reference" "R41"
-			(at -0.04 1.74 90)
+			(at -0.49 2.05 0)
 			(layer "F.SilkS")
 			(uuid "ab2dea60-94f5-405c-81ea-ea751c06f9e4")
 			(effects
@@ -29573,7 +29572,7 @@
 			)
 		)
 		(property "Value" "22K"
-			(at 0.09 -1.61 90)
+			(at 0.51 2.1 0)
 			(layer "F.SilkS")
 			(uuid "7d737700-e771-4526-89db-d6b327c9b18f")
 			(effects
@@ -30257,7 +30256,7 @@
 		(descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
 		(tags "capacitor 0603 C0603")
 		(property "Reference" "C3"
-			(at -1.11 -1.4 270)
+			(at 2.5 -0.076 90)
 			(layer "F.SilkS")
 			(uuid "4fd5c5a1-74a9-4877-baed-9bdf18dedc75")
 			(effects
@@ -30926,7 +30925,7 @@
 		(descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
 		(tags "resistor 0603")
 		(property "Reference" "R48"
-			(at -0.04 1.74 0)
+			(at -0.82 2.182 0)
 			(layer "F.SilkS")
 			(uuid "18507bbd-f6d1-4ace-bc74-d88254d11604")
 			(effects
@@ -30937,7 +30936,7 @@
 			)
 		)
 		(property "Value" "33R"
-			(at 0.09 -1.61 0)
+			(at -0.85 1.182 0)
 			(layer "F.SilkS")
 			(uuid "a5398463-9be2-48ce-a4be-32a13f480475")
 			(effects
@@ -31148,7 +31147,7 @@
 		(descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
 		(tags "resistor 0603")
 		(property "Reference" "R10"
-			(at -0.04 1.74 0)
+			(at 0.154 -2.484 0)
 			(layer "F.SilkS")
 			(uuid "1cf7fa11-921a-4ca8-810e-b0046ebdaa56")
 			(effects
@@ -31848,7 +31847,7 @@
 		(descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
 		(tags "capacitor 0603 C0603")
 		(property "Reference" "C44"
-			(at -1.11 -1.4 0)
+			(at 2.842 -0.015 0)
 			(layer "F.SilkS")
 			(uuid "4cf0d026-ab5f-4657-8ab0-101b13133ffd")
 			(effects
@@ -32962,7 +32961,7 @@
 		(descr "TO-220, Vertical, RM 2.54mm")
 		(tags "TO-220 Vertical RM 2.54mm")
 		(property "Reference" "U1"
-			(at 0 -6.35 0)
+			(at -6.29 2.046 0)
 			(layer "F.SilkS")
 			(uuid "278d0eb4-7783-4802-9a5c-0636da983de3")
 			(effects
@@ -33668,7 +33667,7 @@
 		(descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
 		(tags "resistor 0603")
 		(property "Reference" "R44"
-			(at -0.04 1.74 0)
+			(at -0.04 -2.574 0)
 			(layer "F.SilkS")
 			(uuid "1f39d4d4-1e88-476e-9fa2-b1250b66e160")
 			(effects
@@ -33890,7 +33889,7 @@
 		(descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
 		(tags "capacitor 0603 C0603")
 		(property "Reference" "C41"
-			(at -1.11 -1.4 0)
+			(at -2.706 -0.114 0)
 			(layer "F.SilkS")
 			(uuid "f0f1e039-a8c1-424f-a1d3-f2f969b62feb")
 			(effects
@@ -34397,12 +34396,12 @@
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "LED3"
-			(at 0 -1.83 0)
+			(at 0.122 -1.786 0)
 			(layer "F.SilkS")
 			(uuid "ec94c82f-6c6b-4bd2-b9e4-29fb495cbae2")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 			)
@@ -34884,7 +34883,7 @@
 		(descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
 		(tags "resistor 0603")
 		(property "Reference" "R42"
-			(at -0.04 1.74 0)
+			(at 0.028 -2.614 0)
 			(layer "F.SilkS")
 			(uuid "b7f97daf-f9a4-482c-9fda-eb3311f8a079")
 			(effects
@@ -35106,7 +35105,7 @@
 		(descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
 		(tags "capacitor 0603 C0603")
 		(property "Reference" "C16"
-			(at -1.11 -1.4 90)
+			(at -3.25 0.008 180)
 			(layer "F.SilkS")
 			(uuid "c6127fd2-dd6e-4851-b692-fb3d848a34ff")
 			(effects
@@ -35117,7 +35116,7 @@
 			)
 		)
 		(property "Value" "100NF"
-			(at 1.44 -1.4 90)
+			(at -2.25 0.008 180)
 			(layer "F.SilkS")
 			(uuid "665dd793-7282-4444-bf2f-c9bb35b1823c")
 			(effects
@@ -35902,7 +35901,7 @@
 		(descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
 		(tags "capacitor 0603 C0603")
 		(property "Reference" "C2"
-			(at -1.11 -1.4 90)
+			(at -0.058 -1.462 180)
 			(layer "F.SilkS")
 			(uuid "927fe28f-91df-4341-8e4d-374d337ef640")
 			(effects
@@ -36127,7 +36126,7 @@
 		(descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
 		(tags "resistor 0603")
 		(property "Reference" "R7"
-			(at -0.04 1.74 0)
+			(at 2.582 0.194 0)
 			(layer "F.SilkS")
 			(uuid "6cb68c09-b89e-4025-bf79-5390dce2eb50")
 			(effects
@@ -36138,7 +36137,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 0.09 -1.61 0)
+			(at 2.582 -0.806 0)
 			(layer "F.SilkS")
 			(uuid "65f6ae25-0c49-4a1f-803c-463a868cf9d2")
 			(effects
@@ -36618,7 +36617,7 @@
 			(uuid "0a84da8a-b511-4a28-ac0e-fa5fa30c0e06")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 			)
@@ -39408,7 +39407,7 @@
 		(descr "Through hole straight pin header, 1x03, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x03 2.54mm single row")
 		(property "Reference" "JP3"
-			(at 0 -2.38 0)
+			(at 0 7.66 0)
 			(layer "F.SilkS")
 			(uuid "5a0c17cc-48e1-48af-ab3b-25c6b5221ed1")
 			(effects
@@ -39670,7 +39669,7 @@
 		(uuid "a6d1ddab-a9e8-4b8a-b51f-e07dbc96207f")
 		(at 235.216 63.568)
 		(property "Reference" "J8"
-			(at -4.064 4.064 0)
+			(at -4.466 4.432 0)
 			(layer "F.SilkS")
 			(uuid "84a185e4-9f54-4626-a6c1-9f92b1cf80c3")
 			(effects
@@ -39908,12 +39907,12 @@
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "LED4"
-			(at 0 -1.93 0)
+			(at 0 -1.786 0)
 			(layer "F.SilkS")
 			(uuid "9398496c-e6af-4e97-9778-10fcffa14cb0")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 			)
@@ -40173,7 +40172,7 @@
 		(descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
 		(tags "capacitor 0603 C0603")
 		(property "Reference" "C22"
-			(at -1.11 -1.4 0)
+			(at -2.582 -0.412 0)
 			(layer "F.SilkS")
 			(uuid "f6a08733-23b3-4417-b981-baa13dc6b9bc")
 			(effects
@@ -40184,7 +40183,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 1.44 -1.4 0)
+			(at -2.582 0.588 0)
 			(layer "F.SilkS")
 			(uuid "f007c27a-71a8-480e-b91f-8b2150bf0e13")
 			(effects
@@ -40397,7 +40396,7 @@
 		(descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
 		(tags "capacitor 0603 C0603")
 		(property "Reference" "C40"
-			(at -1.11 -1.4 0)
+			(at 2.224 0.222 90)
 			(layer "F.SilkS")
 			(uuid "eb0ae337-ce66-4a11-9c79-f49c7e71317d")
 			(effects
@@ -42397,7 +42396,7 @@
 		(descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
 		(tags "capacitor 0603 C0603")
 		(property "Reference" "C39"
-			(at -1.11 -1.4 90)
+			(at 2.128 1.54 180)
 			(layer "F.SilkS")
 			(uuid "7d1fb365-4482-4374-a6fc-fb983e375223")
 			(effects
@@ -42408,7 +42407,7 @@
 			)
 		)
 		(property "Value" "12pF"
-			(at 1.44 -1.4 90)
+			(at 3.128 1.29 180)
 			(layer "F.SilkS")
 			(uuid "6ff5c20e-db17-44f6-b1ac-758529b22f69")
 			(effects
@@ -42621,7 +42620,7 @@
 		(descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
 		(tags "resistor 0603")
 		(property "Reference" "R14"
-			(at -0.04 1.74 0)
+			(at -3.028 -0.056 90)
 			(layer "F.SilkS")
 			(uuid "29761743-16fb-483f-824b-166f37c0ec55")
 			(effects
@@ -42632,7 +42631,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 0.09 -1.61 0)
+			(at -2.028 -0.056 90)
 			(layer "F.SilkS")
 			(uuid "ce079c18-96e5-47c1-b874-073ec874f8bc")
 			(effects
@@ -42841,7 +42840,7 @@
 		(uuid "c31d4f99-0440-4fa9-8ddc-df267941b500")
 		(at 129.298 62.298)
 		(property "Reference" "SW3"
-			(at 3.302 1.27 0)
+			(at -0.048 -2.298 0)
 			(layer "F.SilkS")
 			(uuid "9abc5d9d-8cd7-4e70-bd1a-9e36dddaf95e")
 			(effects
@@ -43015,7 +43014,7 @@
 		(descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
 		(tags "capacitor 0603 C0603")
 		(property "Reference" "C27"
-			(at -1.11 -1.4 0)
+			(at 2.842 0.013 0)
 			(layer "F.SilkS")
 			(uuid "5f684b95-ff84-4939-974a-0f209b56795c")
 			(effects
@@ -43684,7 +43683,7 @@
 		(descr "SMD capacitor, aluminum electrolytic, Panasonic C6, 6.3x5.9mm, Alternate KiCad Library")
 		(tags "capacitor electrolytic")
 		(property "Reference" "C49"
-			(at -4.318 -4.349999 0)
+			(at 5.306 -2.458 0)
 			(layer "F.SilkS")
 			(uuid "3df82350-033d-448f-b0e3-90fcb82127d7")
 			(effects
@@ -44227,7 +44226,7 @@
 		(descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
 		(tags "capacitor 0603 C0603")
 		(property "Reference" "C36"
-			(at -1.11 -1.4 90)
+			(at -2.41 -0.044 180)
 			(layer "F.SilkS")
 			(uuid "a879b083-e270-4e14-a8b3-2d9c1391ba8b")
 			(effects
@@ -44238,7 +44237,7 @@
 			)
 		)
 		(property "Value" "8pF"
-			(at 1.44 -1.4 90)
+			(at -3.41 -0.044 180)
 			(layer "F.SilkS")
 			(uuid "17eaabdd-51f6-4134-8931-38ba6446b15f")
 			(effects
@@ -44451,7 +44450,7 @@
 		(descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
 		(tags "capacitor 0603 C0603")
 		(property "Reference" "C13"
-			(at -1.11 -1.4 0)
+			(at -0.048 -1.4 0)
 			(layer "F.SilkS")
 			(uuid "9880633f-0e57-4404-baf4-5ce0b2a673f5")
 			(effects
@@ -44676,7 +44675,7 @@
 		(descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
 		(tags "capacitor 0603 C0603")
 		(property "Reference" "C6"
-			(at -1.11 -1.4 180)
+			(at -2.224 0.088 270)
 			(layer "F.SilkS")
 			(uuid "07bd06d7-964a-4edf-b5f4-cfcb6f41df67")
 			(effects
@@ -44901,7 +44900,7 @@
 		(descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
 		(tags "resistor 0603")
 		(property "Reference" "R2"
-			(at -0.04 1.74 0)
+			(at -0.1 1.456 0)
 			(layer "F.SilkS")
 			(uuid "379361e4-6ef9-4173-b19d-b53952fe2dbe")
 			(effects
@@ -44912,7 +44911,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 0.09 -1.61 0)
+			(at -0.1 2.456 0)
 			(layer "F.SilkS")
 			(uuid "24c39b2c-7936-449f-9424-0060b2eeabf0")
 			(effects
@@ -45345,7 +45344,7 @@
 		(descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
 		(tags "capacitor 0603 C0603")
 		(property "Reference" "C20"
-			(at -1.11 -1.4 0)
+			(at 2.816 -0.412 0)
 			(layer "F.SilkS")
 			(uuid "2a400dd2-b2a7-483c-b03b-47d29fc62ac8")
 			(effects
@@ -45356,7 +45355,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 1.44 -1.4 0)
+			(at 2.816 0.588 0)
 			(layer "F.SilkS")
 			(uuid "6cf81754-f5c5-4855-8183-34a4703f0218")
 			(effects
@@ -45569,7 +45568,7 @@
 		(descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
 		(tags "capacitor 0603 C0603")
 		(property "Reference" "C37"
-			(at -1.11 -1.4 90)
+			(at -2.41 0 180)
 			(layer "F.SilkS")
 			(uuid "8e9f63a5-3c16-4947-b5f3-c4a12bf36321")
 			(effects
@@ -45580,7 +45579,7 @@
 			)
 		)
 		(property "Value" "8pF"
-			(at 1.44 -1.4 90)
+			(at -3.41 0 180)
 			(layer "F.SilkS")
 			(uuid "0b9733f5-a875-4e10-a67c-184b470db983")
 			(effects
@@ -46662,7 +46661,7 @@
 		(descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
 		(tags "resistor 0603")
 		(property "Reference" "R17"
-			(at -0.04 1.74 0)
+			(at -3.026 0.17 90)
 			(layer "F.SilkS")
 			(uuid "71fe7aa3-0623-4560-9e5f-2a4caa423fa8")
 			(effects
@@ -46673,7 +46672,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 0.09 -1.61 0)
+			(at -2.026 0.17 90)
 			(layer "F.SilkS")
 			(uuid "ed952881-964f-4e73-8ab6-77cf3a79c40a")
 			(effects
@@ -47055,7 +47054,7 @@
 		(descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
 		(tags "resistor 0603")
 		(property "Reference" "R39"
-			(at -0.04 1.74 0)
+			(at -3.026 0.286 90)
 			(layer "F.SilkS")
 			(uuid "de919720-d26c-4a1b-9812-9fa56b6416a9")
 			(effects
@@ -47066,7 +47065,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 0.09 -1.61 0)
+			(at -2.026 0.286 90)
 			(layer "F.SilkS")
 			(uuid "99023196-a8a3-4fde-80b9-2d89c4076a86")
 			(effects
@@ -48687,7 +48686,7 @@
 		(descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
 		(tags "resistor 0603")
 		(property "Reference" "R38"
-			(at -0.04 1.74 0)
+			(at 3.026 -0.064 90)
 			(layer "F.SilkS")
 			(uuid "a3200190-828f-4278-b7d0-e31d3d838b29")
 			(effects
@@ -48698,7 +48697,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 0.09 -1.61 0)
+			(at 2.026 -0.064 90)
 			(layer "F.SilkS")
 			(uuid "ab84af16-2a56-468f-9209-faa07e335d74")
 			(effects
@@ -48909,7 +48908,7 @@
 		(descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
 		(tags "resistor 0603")
 		(property "Reference" "R16"
-			(at 0.09 1.74 0)
+			(at 3.028 -0.106 90)
 			(layer "F.SilkS")
 			(uuid "8bd012c8-4bdd-4edb-a3b6-7ef2e5632109")
 			(effects
@@ -48920,7 +48919,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 0.09 -1.61 0)
+			(at 2.028 -0.106 90)
 			(layer "F.SilkS")
 			(uuid "197585a9-e3c5-4b35-a036-b8885228bcfe")
 			(effects
@@ -49131,7 +49130,7 @@
 		(descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
 		(tags "resistor 0603")
 		(property "Reference" "R50"
-			(at -0.04 1.74 0)
+			(at -2.71 1 0)
 			(layer "F.SilkS")
 			(uuid "8b8db8bb-88c9-4a7c-9422-26a00658b5d6")
 			(effects
@@ -49142,7 +49141,7 @@
 			)
 		)
 		(property "Value" "33R"
-			(at 0.09 -1.61 0)
+			(at -2.71 0 0)
 			(layer "F.SilkS")
 			(uuid "10354698-9b0e-4465-bd3c-0b6284a5f653")
 			(effects
@@ -49798,7 +49797,7 @@
 		(descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
 		(tags "resistor 0603")
 		(property "Reference" "R8"
-			(at -0.04 1.74 0)
+			(at 2.582 0.376 0)
 			(layer "F.SilkS")
 			(uuid "9d52b331-25af-4c55-a4af-18843447b143")
 			(effects
@@ -49809,7 +49808,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 0.09 -1.61 0)
+			(at 2.582 -0.624 0)
 			(layer "F.SilkS")
 			(uuid "fed7792e-1e15-46cd-98a9-85485b7e4dcc")
 			(effects
@@ -50503,7 +50502,7 @@
 		(descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
 		(tags "capacitor 0603 C0603")
 		(property "Reference" "C17"
-			(at -1.11 -1.4 90)
+			(at 3.25 -0.048 180)
 			(layer "F.SilkS")
 			(uuid "28b7cb33-ae9d-4d2f-a0c0-80af3634ede8")
 			(effects
@@ -50514,7 +50513,7 @@
 			)
 		)
 		(property "Value" "100NF"
-			(at 1.44 -1.4 90)
+			(at 4.25 -0.298 180)
 			(layer "F.SilkS")
 			(uuid "b11d5c95-00e5-4fff-9e16-31107f49d804")
 			(effects
@@ -50950,7 +50949,7 @@
 		(uuid "eeceb771-047b-4393-af0a-9f3cbf8ef413")
 		(at 176.54 152.5 90)
 		(property "Reference" "U8"
-			(at 0 -7.53 90)
+			(at -4 3.46 180)
 			(layer "F.SilkS")
 			(uuid "5c58f37e-7805-4a7f-8cae-de89875c7e6b")
 			(effects
@@ -51199,7 +51198,7 @@
 		(descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
 		(tags "capacitor 0603 C0603")
 		(property "Reference" "C8"
-			(at 2.286 0 180)
+			(at -2.454 0 180)
 			(layer "F.SilkS")
 			(uuid "a22d25c4-25ce-4865-928a-b2b091a4bb45")
 			(effects
@@ -51906,7 +51905,7 @@
 		(descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
 		(tags "capacitor 0603 C0603")
 		(property "Reference" "C10"
-			(at -1.11 -1.4 0)
+			(at -0.048 -1.512 0)
 			(layer "F.SilkS")
 			(uuid "48ca8b97-7aaf-448b-bb50-9d4c9b53fb97")
 			(effects
@@ -52132,7 +52131,7 @@
 		(descr "Mounting Hole 3.2mm, M3, no annular, generated by kicad-footprint-generator mountinghole.py")
 		(tags "mountinghole M3")
 		(property "Reference" "H2"
-			(at 0 -4.15 0)
+			(at 4.75 -0.25 0)
 			(layer "F.SilkS")
 			(uuid "6e3b777a-2e2b-488c-b704-c1e8ea26c849")
 			(effects
@@ -53288,7 +53287,7 @@
 		(descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
 		(tags "capacitor 0603 C0603")
 		(property "Reference" "C43"
-			(at -1.11 -1.4 0)
+			(at -2.724 -0.148 0)
 			(layer "F.SilkS")
 			(uuid "30476564-0071-4059-ad26-564fb5b3fa5e")
 			(effects
@@ -53513,7 +53512,7 @@
 		(descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
 		(tags "capacitor 0603 C0603")
 		(property "Reference" "C42"
-			(at -1.11 -1.4 0)
+			(at -2.706 -0.086 0)
 			(layer "F.SilkS")
 			(uuid "d44b850a-1b77-4315-b1f5-65f61ac9c757")
 			(effects
@@ -53738,7 +53737,7 @@
 		(descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
 		(tags "resistor 0603")
 		(property "Reference" "R43"
-			(at -0.04 1.74 0)
+			(at -1.676 -1.282 0)
 			(layer "F.SilkS")
 			(uuid "4c0fd8d0-a12c-4e91-b86e-6e59f54582e1")
 			(effects
@@ -53749,7 +53748,7 @@
 			)
 		)
 		(property "Value" "22K"
-			(at 0.09 -1.61 0)
+			(at 1.074 -1.282 0)
 			(layer "F.SilkS")
 			(uuid "e4c29038-4744-400b-9661-b16fa2050481")
 			(effects
@@ -53960,7 +53959,7 @@
 		(descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
 		(tags "capacitor 0603 C0603")
 		(property "Reference" "C50"
-			(at -1.11 -1.4 90)
+			(at 2.172 -0.05 180)
 			(layer "F.SilkS")
 			(uuid "d6c0db10-1528-49c2-9578-364aca495905")
 			(effects
@@ -53971,7 +53970,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 1.44 -1.4 90)
+			(at 3.172 -0.05 180)
 			(layer "F.SilkS")
 			(uuid "1b37992e-c587-4340-a98a-3715643dcaaf")
 			(effects
@@ -54189,7 +54188,7 @@
 			(uuid "09ec3692-d1b4-46be-88ec-34340c1655ac")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 			)
@@ -54468,7 +54467,7 @@
 		)
 	)
 	(gr_text "A"
-		(at 252.984 79.502 90)
+		(at 252.536778 79.502 90)
 		(layer "F.SilkS")
 		(uuid "015ddae1-566d-4ae6-b772-14aa17b621d5")
 		(effects
@@ -54494,7 +54493,7 @@
 		)
 	)
 	(gr_text "CON ACC"
-		(at 232.93 60.012 0)
+		(at 233.25 68.5 0)
 		(layer "F.SilkS")
 		(uuid "07cc1ff4-fa34-46ca-a303-0e593c01ddc7")
 		(effects
@@ -54559,7 +54558,7 @@
 		)
 	)
 	(gr_text "B"
-		(at 252.476 110.998 90)
+		(at 252.536778 110.998 90)
 		(layer "F.SilkS")
 		(uuid "172dbb62-3d77-4c7a-9592-9e2f7290e27d")
 		(effects
@@ -54572,7 +54571,7 @@
 		)
 	)
 	(gr_text "GND"
-		(at 250.202 58.996 0)
+		(at 250.202 59.75 0)
 		(layer "F.SilkS")
 		(uuid "1d34bab2-7ba9-4b5d-977d-0233a0ab9fc7")
 		(effects
@@ -54624,7 +54623,7 @@
 		)
 	)
 	(gr_text "A"
-		(at 253.238 177.8 90)
+		(at 252.536778 177.8 90)
 		(layer "F.SilkS")
 		(uuid "2b2e0b29-772e-41b3-9e97-1a93dc5a61ca")
 		(effects
@@ -54663,7 +54662,7 @@
 		)
 	)
 	(gr_text "A"
-		(at 252.984 153.028 90)
+		(at 252.536778 153.028 90)
 		(layer "F.SilkS")
 		(uuid "397ade81-5eca-4a20-9bb2-41307ea51f27")
 		(effects
@@ -54676,7 +54675,7 @@
 		)
 	)
 	(gr_text "MOTOR3\nDER"
-		(at 253.746 156.33 90)
+		(at 253.238 156.33 90)
 		(layer "F.SilkS")
 		(uuid "3d879fa9-763d-4a45-a4e2-1273b857bcc9")
 		(effects
@@ -54689,7 +54688,7 @@
 		)
 	)
 	(gr_text "B"
-		(at 252.476 135.636 90)
+		(at 252.536778 135.636 90)
 		(layer "F.SilkS")
 		(uuid "3e9b7a83-30ac-4f3f-b5c6-cb4f6eeb6c61")
 		(effects
@@ -54702,7 +54701,7 @@
 		)
 	)
 	(gr_text "B"
-		(at 253.238 185.554 90)
+		(at 252.536778 185.554 90)
 		(layer "F.SilkS")
 		(uuid "46066e39-7fe1-4235-a8a1-915009e0bff3")
 		(effects
@@ -54741,7 +54740,7 @@
 		)
 	)
 	(gr_text "UART CON"
-		(at 244.868 60.012 0)
+		(at 245.75 68 0)
 		(layer "F.SilkS")
 		(uuid "505e5623-18ef-4849-bbf7-e2d98809409d")
 		(effects
@@ -54780,7 +54779,7 @@
 		)
 	)
 	(gr_text "B"
-		(at 252.984 160.782 90)
+		(at 252.536778 160.782 90)
 		(layer "F.SilkS")
 		(uuid "5f773fa6-f7da-470a-8ce6-33fe035b3b24")
 		(effects
@@ -54793,7 +54792,7 @@
 		)
 	)
 	(gr_text "MOTOR\nT-DER"
-		(at 254 183.554 90)
+		(at 253.238 183.554 90)
 		(layer "F.SilkS")
 		(uuid "67700836-bdd5-4d2b-bd4c-ca03976a959a")
 		(effects
@@ -54806,7 +54805,7 @@
 		)
 	)
 	(gr_text "GND"
-		(at 238.264 58.996 0)
+		(at 238.25 59.75 0)
 		(layer "F.SilkS")
 		(uuid "6861ffc2-4dbe-4da1-9ccf-62fdfac455f8")
 		(effects
@@ -54832,7 +54831,7 @@
 		)
 	)
 	(gr_text "A"
-		(at 252.476 103.244 90)
+		(at 252.536778 103.244 90)
 		(layer "F.SilkS")
 		(uuid "69a74600-6b97-4a8f-8a75-d2c69694d597")
 		(effects
@@ -54845,7 +54844,7 @@
 		)
 	)
 	(gr_text "MOTOR\nD-DER"
-		(at 253.746 85.256 90)
+		(at 253.238 85.256 90)
 		(layer "F.SilkS")
 		(uuid "6cca4710-79b5-4806-904c-879dec8700eb")
 		(effects
@@ -54884,7 +54883,7 @@
 		)
 	)
 	(gr_text "SDA"
-		(at 233.184 58.996 0)
+		(at 233.17 59.75 0)
 		(layer "F.SilkS")
 		(uuid "70c66fe0-85b1-4cc7-a36c-c5f6902a5955")
 		(effects
@@ -54936,7 +54935,7 @@
 		)
 	)
 	(gr_text "RX"
-		(at 245.376 58.996 0)
+		(at 245.376 59.75 0)
 		(layer "F.SilkS")
 		(uuid "758cf39e-134c-4585-99da-def9a8f5b3fd")
 		(effects
@@ -54949,7 +54948,7 @@
 		)
 	)
 	(gr_text "3.3V"
-		(at 242.582 58.996 0)
+		(at 242.582 59.75 0)
 		(layer "F.SilkS")
 		(uuid "76412006-0a5b-4ad7-98fc-47f2607285dd")
 		(effects
@@ -55040,7 +55039,7 @@
 		)
 	)
 	(gr_text "SCL"
-		(at 235.724 58.996 0)
+		(at 235.71 59.75 0)
 		(layer "F.SilkS")
 		(uuid "884f61f3-1a78-4bd6-8b73-b731a259ac31")
 		(effects
@@ -55105,7 +55104,7 @@
 		)
 	)
 	(gr_text "3.3V"
-		(at 230.136 58.996 0)
+		(at 230.122 59.75 0)
 		(layer "F.SilkS")
 		(uuid "9dff4774-3b7a-4d00-81e8-e4d27ba87ccb")
 		(effects
@@ -55118,7 +55117,7 @@
 		)
 	)
 	(gr_text "TX"
-		(at 248.17 58.996 0)
+		(at 248.17 59.75 0)
 		(layer "F.SilkS")
 		(uuid "9f1611f9-e37b-4ce2-b408-d27516a4409e")
 		(effects
@@ -55235,7 +55234,7 @@
 		)
 	)
 	(gr_text "B"
-		(at 252.984 87.256 90)
+		(at 252.536778 87.256 90)
 		(layer "F.SilkS")
 		(uuid "c42e45e5-7d1c-4b54-81f2-caa2ad995a7c")
 		(effects
@@ -55274,7 +55273,7 @@
 		)
 	)
 	(gr_text "A"
-		(at 252.476 127.882 90)
+		(at 252.536778 127.882 90)
 		(layer "F.SilkS")
 		(uuid "ce52bfb2-f4aa-44fd-8b7a-24d75702e7ac")
 		(effects
@@ -55287,7 +55286,7 @@
 		)
 	)
 	(gr_text "RST"
-		(at 127.266 60.52 0)
+		(at 122 63 0)
 		(layer "F.SilkS")
 		(uuid "d50f547b-8870-4c66-876c-0eba8bfb0da6")
 		(effects
